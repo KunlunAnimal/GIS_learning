@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html重难点</title>
+</head>
+<body>
+    <div>
+        <h1>a标签用法</h1>
+        <!-- a标签使用方法 -->
+        <!-- blank是在新标签页中打开 -->
+        <a href="https://meeting.tencent.com/dm/v8Kusxk7a7Id" target="_blank">腾讯会议</a>
+        <!-- 跳转至其他页面 -->
+        <a href="./2常用标签.html">常用标签</a>
+        <!-- 伪协议 -->
+        <a href="tel:00000000">拨打电话号码</a>
+        <!-- href中填入#id可以跳转到页面中的指定位置 -->
+        <a href="#dot">跳转到dot div</a>
+    </div>
+    <pre></pre>
+    <hr>
+    <pre></pre>
+    <div>
+        <h1>input标签使用</h1>
+        <!-- input -->
+        <!-- placeholder可以表示文本之中没有文字的显示 -->
+        <input type="text" placeholder="铠甲勇士拿瓦">
+        <!-- input type:button可以表示为按钮 -->
+        <input type="button" value="提交">
+        <br>
+        <!-- checkbox勾选框 -->
+        <input type="checkbox" value="rua死"> <span>暑假只有一个月了</span>
+        <br>
+        <!-- data日期选择 -->
+        <input type="date">
+        <!-- range范围控件 -->
+        <input type="range" min="10" max="1000">
+        <pre></pre>
+        <br>
+        <!-- image当作图片使用 -->
+        <input type="image" src="./水獭.jpg" alt="水獭" title="水獭" width="500px">
+
+        <div id="dot">闪亮登场</div>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <h1>table标签使用</h1>
+        <!-- table包裹整个表格 -->
+        <!-- cellspacing设置表格的间隙 -->
+        <!-- cellpadding设置表格内的大小 -->
+        <table border="1" cellspacing="0" cellpadding="10">
+            <!-- thead表示表格头 -->
+            <thead>
+                <!-- tr表示行，th表示列 -->
+                <!-- colspan代表这个信息占多少列 -->
+                <tr>
+                    <th colspan="4">城市天际线游玩手册</th>
+                </tr>
+                <tr>
+                    <th colspan="4">基本区域</th>
+                </tr>
+                
+                
+            </thead>
+            <!-- thead表示表格体 -->
+            <tbody>
+                <tr>
+                    <td ><img src="" alt=""></td>
+                    <td ><img src="" alt=""></td>
+                    <td ><img src="" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="1">住宅区</td>
+                    <td colspan="3">提供工人</td>
+                </tr>
+                <tr>
+                    <td colspan="1">商业区</td>
+                    <td colspan="3">需要工人和商品</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+    
+</body>
+</html>
